@@ -31,16 +31,6 @@ function mouseMove(e){
 
   }
 }
-const flavoursContainer = document.querySelector('.items');
-const flavoursScrollWidth = flavoursContainer.scrollWidth;
-
-window.addEventListener('load', () => {
-  while(true){
-    self.setInterval(() => {
-    if (flavoursContainer.scrollLeft !== flavoursScrollWidth) {
-      flavoursContainer.scrollTo(flavoursContainer.scrollLeft + 1, 0);
-    }
-  }, 10);
   
   }
   
