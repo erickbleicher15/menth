@@ -1,0 +1,11 @@
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste a altura conforme necessário */
+    padding-top: 20px;
+  }
+nav{
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
