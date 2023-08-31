@@ -3,7 +3,6 @@ const container = document.querySelector('.items');
 let startX;
 let scrollLeft;
 let isDown;
-var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
 container.addEventListener('mousedown',e => mouseIsDown(e));  
 container.addEventListener('mouseup',e => mouseUp(e))
@@ -30,8 +29,3 @@ function mouseMove(e){
     container.scrollLeft = scrollLeft - walkX;
 
   }
-}
-  
-  }
-  
-});
