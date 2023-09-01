@@ -27,5 +27,5 @@ function mouseMove(e){
     const x = e.pageX - container.offsetLeft;
     const walkX = x - startX;
     container.scrollLeft = scrollLeft - walkX;
-
   }
+}
