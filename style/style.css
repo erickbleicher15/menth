@@ -1,10 +1,15 @@
 @media only screen and (max-width: 600px) {
-  .gray-card{
+  .gray-card {
     display: none;
   }
 }
 
+nav .btn:hover {
+  color: black;
+}
+
 body {
+  scroll-behavior: smooth;
   user-select: none;
 }
 
@@ -34,7 +39,7 @@ nav {
 }
 
 .table-section {
-  margin: 2% 0;
+  height: 100vh;
 }
 
 .td-text {
