@@ -95,6 +95,7 @@ html {
   }
 
   .item {
+    border-radius: 1%;
     display: inline-block;
     background: #f2f2f2;
     min-width: 28%;
@@ -112,7 +113,10 @@ html {
   }
 
   .item:hover {
+    float: inherit;
+    z-index: 0;
     transition: all 1s;
     transform: scale(1.1);
+    box-shadow: 0px 0px 30px 1px black;
   }
 }
