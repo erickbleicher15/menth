@@ -49,7 +49,7 @@ nav {
 .td-card {
   display: flexbox;
   align-items: center;
-  justify-content: center !important;
+  justify-content: center;
 }
 
 .gray-card:hover {

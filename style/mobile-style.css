@@ -1,0 +1,19 @@
+.table-section{
+    height: 60vh;
+}
+
+.td-wrap{
+    padding: 16vh 10px;
+    border-radius: 5%;
+    background-color: rgb(255, 255, 255, 0.6);    
+}
+
+.td-card{
+    visibility: hidden;
+}
+.td-text{
+    background-image: url('../img/foto1.jpeg');
+    background-size: cover;
+    width: 100%;
+    padding: 10px 20px;
+}
