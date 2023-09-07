@@ -40,7 +40,7 @@ html {
   .grid-item {
     overflow-x: hidden;
     color: #fff;
-    background: rgb(204, 204, 204);
+    background: #ececec;
     padding: 3.5em 1em;
     font-size: 1em;
     font-weight: 700;
