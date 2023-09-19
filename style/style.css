@@ -8,6 +8,16 @@ nav .btn:hover {
   color: black;
 }
 
+#login-button-index{
+  background-color: rgb(39, 166, 39) !important;
+  color:white;
+}
+
+#login-button-index:hover{
+  background-color: rgb(255, 255, 255)!important;
+  color:black;
+}
+
 body {
   scroll-behavior: smooth;
   user-select: none;
